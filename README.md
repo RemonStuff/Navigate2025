@@ -1,16 +1,8 @@
 # Serverless Computing with Kubernetes Demo
 
-## Introduction (2 minutes)
+## Introduction 
 
-I'm Remon Van harmelen, a Cloud Architect currently with Qualcomm in Ireland. My expertise areas are Azure, Cloud Migration, Data engineering, and Kubernetes, I specialize in designing and implementing complex data solutions.
-
-Today, I'm excited to demonstrate how serverless computing can be implemented directly on Kubernetes, bringing together the benefits of both paradigms while avoiding vendor lock-in.
-
-We'll use Minikube running on Windows with Hyper-V to create a realistic Kubernetes environment that mirrors production setups, while remaining completely self-contained for demonstration purposes. 
-
-if you have any  questions after the session please reach out to me on linkedin
-
-## Setup (8 minutes)
+## Setup 
 
 ### 1. Prerequisites verification
 
@@ -213,7 +205,7 @@ Write-Host "`nNote: In both cases, the Host header is crucial for Knative routin
 ```
 *This emphasizes the importance of the Host header when working with Knative services.*
 
-## Demo Part 2: Autoscaling Benefits (10 minutes)
+## Demo Part 2: Autoscaling Benefits 
 
 ### 1. Configure autoscaling for the service
 
